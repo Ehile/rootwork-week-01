@@ -1,35 +1,31 @@
-# Rootwork Week 1
+# Rootwork Week 01
 
-## What I Am Learning
+## Name
 
-I am beginning my Rootwork engineering journey by strengthening my programming and software development fundamentals.
+Ehile Emmanuel Oga
 
-In this first week, I am learning how to:
+## Current Programming Experience
 
-* Set up a development environment.
-* Use VS Code to write code.
-* Run JavaScript using Node.js.
-* Understand variables.
-* Create and use simple functions.
-* Use Git for version control.
-* Create and manage a GitHub repository.
+I have previous experience with HTML and CSS and have built projects using these technologies. I am now expanding my programming knowledge into JavaScript and learning the fundamentals of software development, version control, and working with Git and GitHub.
 
-## What I Built
+## Current Learning Interest
 
-For this assignment, I created a simple JavaScript program that:
+My current learning interest is full-stack development. I am particularly interested in strengthening my JavaScript skills and understanding how different parts of a software application work together.
 
-1. Stores my name in a variable.
-2. Prints a greeting to the terminal.
-3. Uses a function to generate another greeting.
+## Goal by the End of Rootwork
 
-## Running the Program
+By the end of Rootwork, I want to have a strong foundation in software engineering and be able to build, understand, explain, and confidently defend the projects I create.
 
-To run the program locally, use:
+## Function Explanation
 
-```bash
-node index.js
+I added a function called `introduce`. The function takes a person's name as an argument and returns a greeting containing that name.
+
+For example:
+
+```javascript
+function introduce(person) {
+    return `Hello, my name is ${person}.`;
+}
 ```
 
-## My Goal
-
-My goal is to build a strong foundation in software engineering and become confident enough to understand, build, explain, and defend the projects I create.
+The function can then be called by passing a name to it. This helped me understand how functions accept inputs (arguments), process them, and return a result.
