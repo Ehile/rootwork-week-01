@@ -1,0 +1,17 @@
+The program checks five requirements before deciding whether an applicant qualifies for the scholarship.
+
+The applicant must be at least 18 years old.
+
+The applicant must have a score of at least 60.
+
+The applicant must have completed the application.
+
+The applicant must have access to a laptop.
+
+The applicant must have access to the internet.
+
+If an applicant meets all five requirements and scores 85 or higher, the program displays "Priority candidate."
+
+If the applicant meets all five requirements but scores below 85, the program displays "Eligible."
+
+If the applicant fails any of the five normal requirements, the program displays "Not eligible," regardless of how high their score is.

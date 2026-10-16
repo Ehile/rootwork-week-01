@@ -1,0 +1,25 @@
+START
+
+Set age to 21
+Set score to 78
+Set hasLaptop to true
+Set hasInternet to true
+Set completedApplication to true
+
+IF age is at least 18 AND
+   score is at least 60 AND
+   hasLaptop is true AND
+   hasInternet is true AND
+   completedApplication is true
+
+    IF score is at least 85
+        DISPLAY "Priority candidate"
+    ELSE
+        DISPLAY "Eligible"
+    ENDIF
+
+ELSE
+    DISPLAY "Not eligible"
+ENDIF
+
+END
